@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "XANSingle.h"
+#import "XANDownLoad.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +17,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    //创建对象
+    XANSingle *single1=[XANSingle shareSingle];
+    XANSingle *single2=[XANSingle shareSingle];
+    NSLog(@"single1:%p\nsingle2:%p",single1,single2);
+    /*
+     single1:0x60000001c410
+     single2:0x60000001c410
+     single1与single2的地址相同，实现了单例
+     */
+    
+    XANDownLoad *single3=[XANDownLoad shareDownLoad];
+    XANDownLoad *single4=[XANDownLoad shareDownLoad];
+    NSLog(@"single3:%p\nsingle4:%p",single3,single4);
+    /*
+     single3:0x604000008140
+     single4:0x604000008140
+     single3与single4的地址相同，实现了单例
+     */
 }
 
 

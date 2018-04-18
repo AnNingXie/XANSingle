@@ -13,6 +13,8 @@
 		0427290F20873DC8004294D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0427290E20873DC8004294D6 /* Assets.xcassets */; };
 		0427291220873DC8004294D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0427291020873DC8004294D6 /* LaunchScreen.storyboard */; };
 		0427291520873DC8004294D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0427291420873DC8004294D6 /* main.m */; };
+		042729212087428E004294D6 /* XANDownLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 0427291C2087428D004294D6 /* XANDownLoad.m */; };
+		042729222087428E004294D6 /* XANSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 042729202087428E004294D6 /* XANSingle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		0427291120873DC8004294D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0427291320873DC8004294D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0427291420873DC8004294D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0427291C2087428D004294D6 /* XANDownLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XANDownLoad.m; sourceTree = "<group>"; };
+		0427291D2087428E004294D6 /* XANDownLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XANDownLoad.h; sourceTree = "<group>"; };
+		0427291E2087428E004294D6 /* XANPCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XANPCH.h; sourceTree = "<group>"; };
+		0427291F2087428E004294D6 /* XANSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XANSingle.h; sourceTree = "<group>"; };
+		042729202087428E004294D6 /* XANSingle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XANSingle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 		0427290420873DC6004294D6 /* XANSingle */ = {
 			isa = PBXGroup;
 			children = (
+				0427291B20874237004294D6 /* XANSingle */,
 				0427290520873DC6004294D6 /* AppDelegate.h */,
 				0427290620873DC6004294D6 /* AppDelegate.m */,
 				0427290820873DC6004294D6 /* ViewController.h */,
@@ -67,6 +75,18 @@
 				0427291020873DC8004294D6 /* LaunchScreen.storyboard */,
 				0427291320873DC8004294D6 /* Info.plist */,
 				0427291420873DC8004294D6 /* main.m */,
+			);
+			path = XANSingle;
+			sourceTree = "<group>";
+		};
+		0427291B20874237004294D6 /* XANSingle */ = {
+			isa = PBXGroup;
+			children = (
+				0427291D2087428E004294D6 /* XANDownLoad.h */,
+				0427291C2087428D004294D6 /* XANDownLoad.m */,
+				0427291E2087428E004294D6 /* XANPCH.h */,
+				0427291F2087428E004294D6 /* XANSingle.h */,
+				042729202087428E004294D6 /* XANSingle.m */,
 			);
 			path = XANSingle;
 			sourceTree = "<group>";
@@ -144,6 +164,8 @@
 				0427290A20873DC6004294D6 /* ViewController.m in Sources */,
 				0427291520873DC8004294D6 /* main.m in Sources */,
 				0427290720873DC6004294D6 /* AppDelegate.m in Sources */,
+				042729212087428E004294D6 /* XANDownLoad.m in Sources */,
+				042729222087428E004294D6 /* XANSingle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
